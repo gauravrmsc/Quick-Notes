@@ -1,0 +1,196 @@
+ html {
+  height: 100%;
+}
+ #menubar{
+ position:sticky;
+ top:0px;
+ box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
+ width:100%;
+ height:50px;
+ text-align: right;
+ background-color: rgb(15,157,88);
+  z-index: 4;
+  
+ }
+ .menuItem{
+ font-weight: bold;
+ font-size: 20px;
+ color:#ffffff;
+ cursor:pointer;
+ display:inline-block;
+ line-height: 40px;
+ margin:10px;
+ }
+ .menuItem:hover{
+ text-decoration: underline;
+ }
+body {
+	font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	height:100%;
+	text-align: center; 
+	font-size:30px;
+	font-weight: bold;
+ }
+ body a{
+ text-decoration:none;
+ color:#000000;
+ }
+ body a:hover{
+  text-decoration:none;
+ color:#000000;
+ }
+  .icons{
+       		width:330px;
+            height:50px;
+       		box-shadow:0 2px 10px -1px rgba(87, 97, 100, 0.35);
+            position: relative;
+            display:inline-block;
+           //text-align: center;
+            margin:5px;
+            //padding: 5px;
+            cursor:pointer;
+            text-decoration: none;
+            overflow:hidden;
+            font-size:12px;
+        }
+        
+       .icons:hover{
+            background-color: #f1f1f1;
+        }
+ .icons .fName{
+ vertical-align:middle;
+  display:inline-block;
+ overflow:hidden;
+ line-height: 15px;
+ width:260px;
+ margin-top:5px;
+ font-weight: bold;
+ }       
+.icons .image{
+	vertical-align:middle;
+	width: 50px;
+	height:40px;
+	display:inline-block;
+	margin:5px;
+	//margin-left:30%;
+	//margin-right:30%;
+	
+}
+.icons .image img{
+	width: 100%;
+	height:100%;
+	//display:inline-block;
+	//margin-right:5px;
+	//margin-left:30%;
+	//margin-right:30%;
+	
+}
+.bgFrame{
+	background-color: white;
+	height: auto;
+	width:30%;
+	opacity: 1;
+	position: relative;
+	text-align: left;
+	font-size:18px;
+}
+.bgFrame div{
+	font-size:13px;
+}
+.bgFrame input{
+	margin:10px;
+}
+.bgFrame button{
+	margin-top:10px;
+}
+.bgModel{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display:none;
+	background-color: rgba(0,0,0,.5);
+	top:0;left:0;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 4;
+}
+ #fileToBeDeleted{
+ margin-top: 10px;
+	font-size:12px;
+	color:#FF0000;
+	
+}
+#loginContainer{
+ z-index:5;
+}
+  #delBox{
+            box-shadow:0 2px 10px -1px rgba(87, 97, 100, 0.35);
+            width:200px;
+            height:100px;
+            display:none;
+            position: absolute;
+            z-index: 3;
+			background-color: #ffffff;
+            
+        }
+         .delBtn:hover{
+        background-color: #337ab7;
+        color: #ffffff;
+        }
+        .delBtn{
+            font-weight: 700;
+            color: #333;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align:left;
+        }
+        .customBtn {
+			cursor: pointer;
+		}
+      
+      #fileContainer{
+      margin-top:20px;
+      }  
+      #loadingSign{
+      font-size: 30px; 
+      line-height: 100px;
+      text-align: center;
+      }
+      #loadedPercent{
+      font-size:30px;
+      text-align:center;
+      }
+       .bg-modal{
+                    width:100%;
+                    height:100%;
+                    background-color:rgba(0,0,0,.7);
+                   display: flex;
+                   justify-content: center;
+                   align-items:center;
+                    position:absolute;
+                    top:0;
+                    display:none;
+                }
+                .model-content{
+                    width:500px;
+                    height:400px;
+                    background-color:crimson;
+                    opacity: 1;
+                    row-gap: 1vmin;
+                   text-align: center;
+                   padding: 0px 10px;
+                    position:relative;
+                   
+                }
+                select{
+                    width:100%;
+                  
+                }
+                #close{
+                    position: absolute;
+                    right: 10px;
+                    font-size: 15px;
+                    color:whitesmoke;
+                }
